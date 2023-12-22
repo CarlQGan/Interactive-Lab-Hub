@@ -33,6 +33,8 @@ For the final project we created a cat food dispenser. It is able to recogize ca
 
 ## Big Idea
 
+<img src="./img/img1.png" width="800">\
+
 Our interactive device uses image recognition technology to identify cats and geese with a webcam, and dispenses treats for each animal depending on what the system recognizes. We plan to place the device at the Roosevelt Island cat sanctuary to live test it. 
 
 ## Timeline
@@ -69,12 +71,12 @@ Making changes to the feeder if the feeder is too complicated. We can make it si
 
 ## Documentation of design process
 
-1. 3D Printing of Components: Our project began with the design and 3D printing of various parts for our automated cat feeder. This included the main body, dispensing mechanism, and other structural elements.
-2. Assembly and Cleaning: Post-printing, we carefully cleaned and assembled these components, ensuring they fit together seamlessly and functioned properly.
-3. Integration of Motor: A crucial step was the integration of a motor into the feeder. This motor is responsible for rotating the dispenser, enabling the controlled release of cat food.
-4. Machine Learning Model Development: We developed a machine learning model capable of differentiating between humans, cats, and geese. This model is vital for the feeder's smart operation, allowing it to respond appropriately to different animals.
-5. Testing Phases:
-Phase 1 - Photographic Testing: We initially tested our device using photographs of cats and geese. This phase helped us to fine-tune the model's accuracy in differentiating between these animals.
+1. 3D Printing of Components: Our project began with the design and 3D printing of various parts for our automated cat feeder. This included the main body, dispensing mechanism, and other structural elements. We identified a design that suited our needs on Thingiverse, and split up the printing in Maker Lab. Printing all the raw parts took about 40-45 hours total over the course of a week.
+2. Assembly and Cleaning: Post-printing, we carefully cleaned and assembled these components, ensuring they fit together seamlessly and functioned properly. This involved sanding down rough edges and imperfections from the printer,  and screwing and gluing different parts to attach together.
+3. Integration of Motor: A crucial step was the integration of a motor into the feeder. This motor is responsible for rotating the dispenser, enabling the controlled release of cat food. We also had to sauder wires to connect the motor to the Pi and breadboard.
+4. Machine Learning Model Development: We developed a machine learning model capable of differentiating between humans, cats, and geese based on an image library. This model is vital for the feeder's smart operation, allowing it to respond appropriately to different animals. When it sees a cat, it meows and dispenses a treat.
+5. Testing Phases:\
+Phase 1 - Photographic Testing: We initially tested our device using printed and digital (phone) photographs of cats and geese. This phase helped us to fine-tune the model's accuracy in differentiating between these animals.\
 Phase 2 - Real-World Testing: The final testing phase involved real cats. This step was crucial in understanding the practical functionality and reliability of our feeder in a real-world scenario.
 
 
@@ -98,5 +100,5 @@ Mechanical Challenges: The feeder's dispensing mechanism, particularly the rotat
 
 Placement of Video Camera: The video camera needs to be positioned at an appropriate angle to recognize objects better. If we had more time, we would have built a stand to position the camera so it is at a better angle. 
 
-
+Live Testing at Sanctuary: We were not able to test our device at the Roosevelt Island Cat Sanctuary because they do not allow feeding of the wildlife. However, we were able to test the device on live cats through some willing cat owners. We have not tested the camera and dispenser on live geese due to concerns about disturbing the wildlife by getting to close or feeding them improperly.
 
